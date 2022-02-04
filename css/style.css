@@ -2,6 +2,49 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 865px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.header__container {
+    min-width: 1032px;
 }
