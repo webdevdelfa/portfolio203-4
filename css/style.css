@@ -68,6 +68,10 @@ h3 {
     display: flex;
 }
 
+.about__info {
+    padding-right: 12.3%;
+}
+
 .about__avatar {
     width: 243px;
     height: 243px;
