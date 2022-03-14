@@ -255,11 +255,13 @@ h3 {
     .featured__works {
         display: flex;
         width: 100%;
-        overflow: auto;
+        overflow-x: auto;
+        padding-top: 25px;
+        margin-bottom: 100px;
     }
 
     .work {
-        max-width: 100%;
+        width: 100%;
         flex-direction: column;
         flex-shrink: 0;
         padding: 20px 13px;
